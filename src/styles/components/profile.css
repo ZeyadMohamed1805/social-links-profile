@@ -1,0 +1,14 @@
+/** Profile Card **/
+
+/* Profile Card */
+#profile-card {
+	background-color: var(--secondary-color-two);
+	max-width: 23.4375rem;
+	border-radius: 0.75rem;
+	padding: 2rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	text-align: center;
+}

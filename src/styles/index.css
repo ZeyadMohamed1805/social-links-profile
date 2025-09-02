@@ -4,3 +4,6 @@
 @import url("base/fonts.css");
 @import url("base/variables.css");
 @import url("base/reset.css");
+
+/* Component Imports */
+@import url("components/profile.css");
