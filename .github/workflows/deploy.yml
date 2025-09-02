@@ -1,0 +1,29 @@
+name: Deploy to GitHub Pages
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+
+            - name: Copy assets to dist
+              run: |
+                  cp -r assets dist/
+                  cp assets/images/favicon-32x32.png dist/favicon.ico
+
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v4
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./dist
