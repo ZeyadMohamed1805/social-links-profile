@@ -11,6 +11,7 @@
 /* HTML Reset */
 html {
 	font-size: var(--font-size);
+	font-family: var(--font-family-inter);
 }
 
 /* Body Reset */
@@ -28,5 +29,52 @@ main {
 	padding: 2rem 1.5rem;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	text-align: center;
+}
+
+/* Figure Reset */
+figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	gap: 0.5rem;
+}
+
+/* Image Reset */
+img {
+	aspect-ratio: 1;
+	width: 100%;
+	max-width: 5.1875rem;
+	border-radius: 100%;
+}
+
+/* Figure Caption Reset */
+figcaption {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+/* Heading One Reset */
+h1 {
+	font-size: 1.5rem;
+	font-weight: var(--font-weight-bold);
+	color: var(--white-color);
+}
+
+/* Heading Two Reset */
+h2 {
+	font-size: 0.875rem;
+	font-weight: var(--font-weight-semibold);
+	color: var(--primary-color);
+}
+
+/* Heading Three Reset */
+h3 {
+	font-size: 0.875rem;
+	font-weight: var(--font-weight-regular);
+	color: var(--white-color);
 }
