@@ -12,3 +12,21 @@
 html {
 	font-size: var(--font-size);
 }
+
+/* Body Reset */
+body {
+	background-color: var(--secondary-color-two);
+	padding: 1rem;
+}
+
+/* Main Reset */
+main {
+	background-color: var(--secondary-color-three);
+	max-width: 23.4375rem;
+	margin: 0 auto;
+	border-radius: 0.75rem;
+	padding: 2rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
