@@ -1,0 +1,9 @@
+/** Fonts **/
+
+/* Inter Font */
+@font-face {
+	font-family: "Inter";
+	src: url("../../../assets/fonts/inter/Inter.ttf") format("truetype");
+	font-weight: 400, 600, 700;
+	font-style: normal;
+}

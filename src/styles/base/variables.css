@@ -1,0 +1,21 @@
+/** Variables **/
+
+:root {
+	/* Color Variables */
+	--white-color: hsl(0, 0%, 100%);
+	--secondary-color-three: hsl(0, 0%, 20%);
+	--secondary-color-two: hsl(0, 0%, 12%);
+	--secondary-color-one: hsl(0, 0%, 8%);
+	--primary-color: hsl(75, 94%, 57%);
+
+	/* Font Size Variables */
+	--font-size: 14px;
+
+	/* Font Family Variables */
+	--font-family-inter: "Inter", sans-serif;
+
+	/* Font Weight Variables */
+	--font-weight-regular: 400;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+}

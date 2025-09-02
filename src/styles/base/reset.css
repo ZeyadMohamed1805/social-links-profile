@@ -1,0 +1,14 @@
+/** Reset **/
+
+/* Wildcard Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+/* HTML Reset */
+html {
+	font-size: var(--font-size);
+}
